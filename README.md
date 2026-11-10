@@ -9,7 +9,7 @@ A Claude Code plugin that removes AI writing patterns from text and makes it sou
 Run this command inside Claude Code terminal:
 
 ```bash
-/plugin install https://github.com/devsharma-source/humanizer-plugin
+/plugin install https://github.com/devsharmagrowleads-oss/humanizer-plugin
 ```
 
 That's it. No manual file copying, no configuration needed. The `/humanizer` command will be available immediately after installation.
@@ -122,3 +122,9 @@ Removing AI patterns is only half the job. The humanizer also adds voice:
 ## Source
 
 Skill logic based on [Wikipedia: Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing), maintained by WikiProject AI Cleanup.
+
+## Credits and licence
+
+The humanizer skill in `skills/humanizer/SKILL.md` is adapted from [blader/humanizer](https://github.com/blader/humanizer) v2.2.0 by Siqi Chen, used under the MIT licence. This repo packages it as an installable Claude Code plugin.
+
+Released under the [MIT licence](LICENSE).
